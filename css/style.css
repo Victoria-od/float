@@ -1,0 +1,44 @@
+body{
+margin:0;
+padding:0;
+}
+
+.photo{
+width:1366px;
+height:662px;
+background-color:pink;
+}
+
+.left{
+float:left;	
+width:60%;
+background-color:yellow;
+}
+.right{
+float:right;
+width:40%;	
+}
+img{
+vertical-align:top;	
+margin:0;
+}
+.left img {
+	width:20%;
+	height:auto;
+	overflow:hidden;
+	float:left;
+}
+
+.right img {
+	width:45%;
+	height:auto;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	float:right;
+	/*object-fit:cover;*/
+	
+}
+.left:nth-child (5n+1){
+	clear:left;
+}
